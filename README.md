@@ -12,13 +12,13 @@
 - Go to http://localhost:8080 to view welcome message
 
 
-### Deploy Start branch to Docker hub
+### Run Docker Image Start Branch
 - Navigate into the root folder
 - To build Docker image - Type  `docker build -t dockerstart .` 
 - To run the Docker image - `docker run -p 49160:8080 -d dockerstart`
 - On Docker desktop, click "view in browser" to view the welcome message.
 
-### Feature Branch
+### Run Docker Image Feature Branch
 - Checkout to feature branch.
 - Build Docker image - Type  `docker build -t docker-feature .` 
 - Run the Docker image - `docker run -p 4990:8080 -d docker-feature`
@@ -35,5 +35,5 @@
 
 
 ### Docker Hub Repo
-sca-docker-application
+https://hub.docker.com/repository/docker/sandy8169/sca-docker-application
  
